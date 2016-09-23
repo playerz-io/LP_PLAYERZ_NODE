@@ -1,0 +1,27 @@
+{
+  "name": "node_playerz_io",
+  "version": "1.0.0",
+  "description": "> Architecture du site www.playerz.io <a href=\"http://taggaddaaaa.github.io/Playerz-io\"></a>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taggaddaaaa/Playerz-io.git"
+  },
+  "engines": {
+    "node": "~ 4.0",
+    "npm": "*"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taggaddaaaa/Playerz-io/issues"
+  },
+  "homepage": "https://github.com/taggaddaaaa/Playerz-io#readme",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  }
+}
