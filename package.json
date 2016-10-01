@@ -27,7 +27,9 @@
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglifyjs": "^0.6.2"
+    "gulp-uglifyjs": "^0.6.2",
+    "nodemailer": "^2.6.4",
+    "nodemailer-mailgun-transport": "^1.1.0"
   },
   "devDependencies": {
     "gulp-ng-annotate": "^2.0.0"
