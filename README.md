@@ -4,11 +4,11 @@
 
 
 ## FAIT AVEC :
-<img src="https://confluence.jetbrains.com/download/attachments/15797318/WI?version=2&modificationDate=1449749629000&api=v2">
-<img src="assets/img/html5.png">
-<img src="assets/img/js.png">
-<img src="assets/img/css3.png">
-<img src="assets/img/Boostrap.png">
+<img src="https://confluence.jetbrains.com/download/attachments/15797318/WI?version=2&modificationDate=1449749629000&api=v2" style="width:25%";>
+<img src="public/assets/img/html5.png">
+<img src="public/assets/img/js.png">
+<img src="public/assets/img/css3.png">
+<img src="public/assets/img/Boostrap.png">
 
 
 ## EN PLUS :
@@ -26,7 +26,7 @@
 
 - [ ] - Revoir mes favicons
 
-- [ x ] - Optimiser la taille des img
+- [ ] - Optimiser la taille des img
 
 - [ ] - Rajouter un plus beau gif que celui ci-dessous!
 
