@@ -1,10 +1,10 @@
 # PLAYERZ-IO
 
-> Architecture du site www.playerz.io <a href="http://taggaddaaaa.github.io/Playerz-io"></a>
+> Architecture du site www.playerz.io avec refonte en nodeJs
 
 
 ## FAIT AVEC :
-<img src="assets/img/Sublime_Text.png">
+<img src="https://confluence.jetbrains.com/download/attachments/15797318/WI?version=2&modificationDate=1449749629000&api=v2">
 <img src="assets/img/html5.png">
 <img src="assets/img/js.png">
 <img src="assets/img/css3.png">
@@ -13,10 +13,10 @@
 
 ## EN PLUS :
 >rajout d'une page non référencée au public pour notre participation au Culturathon de Lens 2016 :
-<a href="http://taggaddaaaa.github.io/Playerz-io/culturathon">Culturathon</a>
+<a href="http://www.playerz.io/culturathon>Culturathon</a>
 
 >rajout d'une page non référencée au public pour notre candidature à L'incubateur d'HEC en mai 2016 :
-<a href="http://taggaddaaaa.github.io/Playerz-io/hec">Hec</a>
+<a href="http://www.playerz.io/hec">Hec</a>
 
 
 ##TODO
@@ -26,9 +26,9 @@
 
 - [ ] - Revoir mes favicons
 
-- [ ] - Optimiser la taille des img
+- [ x ] - Optimiser la taille des img
 
-- [ ] - Rajouter un plus beau gif ci-dessous!
+- [ ] - Rajouter un plus beau gif que celui ci-dessous!
 
 
 ## TO BE CONTINUED...
