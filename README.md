@@ -13,7 +13,7 @@
 
 ## EN PLUS :
 >rajout d'une page non référencée au public pour notre participation au Culturathon de Lens 2016 :
-<a href="http://www.playerz.io/culturathon>Culturathon</a>
+<a href="http://www.playerz.io/culturathon">Culturathon</a>
 
 >rajout d'une page non référencée au public pour notre candidature à L'incubateur d'HEC en mai 2016 :
 <a href="http://www.playerz.io/hec">Hec</a>
