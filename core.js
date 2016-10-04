@@ -7,10 +7,11 @@ angular.module('playerzPassword', [])
         //url: "http://localhost:5000/api"
 })
 
-.controller('controller', ['$scope', '$http', '$location', 'API_ENDPOINT', function($scope, $http, $location, API_ENDPOINT) {
+.controller('controller', ['$scope', '$http', '$location', 'API_ENDPOINT', function($scope, $http, $location,
+                                                                                    API_ENDPOINT) {
 
     var currentPath = window.location.href;
-    var splitLocation = window.location.href.split('/');
+    var splitLocation = currentPath.split('/');
     var lengthLocation = splitLocation.length;
     var token = splitLocation[lengthLocation - 1];
 

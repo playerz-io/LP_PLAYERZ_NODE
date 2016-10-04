@@ -24,14 +24,32 @@
     "body-parser": "^1.15.2",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglifyjs": "^0.6.2",
+    "gulp-uglifyjs": "latest",
     "nodemailer": "^2.6.4",
-    "nodemailer-mailgun-transport": "^1.1.0"
+    "nodemailer-mailgun-transport": "^1.1.0",
+    "gulp-rename": "latest",
+    "gulp": "latest",
+    "gulp-csso": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-uncss": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest"
   },
   "devDependencies": {
-    "gulp-ng-annotate": "^2.0.0"
+    "gulp-load-plugins": "latest",
+    "gulp-ng-annotate": "latest",
+    "gulp-rename": "latest",
+    "gulp": "latest",
+    "gulp-csso": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-uglifyjs": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-uncss": "latest",
+    "gulp-concat": "latest"
   }
 }

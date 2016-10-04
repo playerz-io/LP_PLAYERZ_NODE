@@ -1,7 +1,7 @@
 var appMaster = {
 
     preLoader: function(){
-        imageSources = []
+        imageSources = [];
         $('img').each(function() {
             var sources = $(this).attr('src');
             imageSources.push(sources);

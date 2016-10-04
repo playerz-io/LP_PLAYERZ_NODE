@@ -7,6 +7,7 @@ let port = process.env['PORT'] || 8080;
 let nodemailer = require('nodemailer');
 let mg = require('nodemailer-mailgun-transport');
 
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
@@ -21,7 +22,7 @@ app.get('/reset_password/:token', (req, res) => {
 });
 
 app.post('/email', (req, res) => {
-   console.log(req.body.name);
+    console.log(req.body.name);
     console.log(req.body.email);
     console.log(req.body.body);
 
@@ -31,8 +32,6 @@ app.post('/email', (req, res) => {
             api_key:'key-2cbf56735c697b79b2b69306c4d0b79c',
             domain: 'playerz.io'
         }
-
-
     };
     console.log(auth);
 
