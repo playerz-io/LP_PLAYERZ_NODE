@@ -15,15 +15,15 @@
 
     <link rel="shortcut icon" href="../assets/img/favicon.png">
 
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/js/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="assets/css/berry.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/js/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="../assets/css/berry.css">
 
     <!--charge tous les js-->
-    <script type="text/javascript" src="assets/js/global.min.js"></script>
+    <script type="text/javascript" src="../assets/js/global.min.js"></script>
 
     <!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -66,7 +66,7 @@
 
     <header class="fullscreen-bg">
         <video loop muted autoplay poster="" class="fullscreen-bg__video">
-            <source src="assets/video/vid.mp4" type="video/mp4">
+            <source src="../assets/video/vid.mp4" type="video/mp4">
         </video>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
@@ -506,15 +506,15 @@
         var $mcj = jQuery.noConflict(true);
     </script>
 
-
-    <script src="assets/js/jquery-1.11.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/placeholdem.min.js"></script>
-    <script src="assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script src="assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
+    <script src="../assets/js/jquery-1.11.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/placeholdem.min.js"></script>
+    <script src="../assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="../assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="../assets/js/waypoints.min.js"></script>
+    <script src="../assets/js/scripts.js"></script>
+    
     <script>
         $(document).ready(function() {
             appMaster.preLoader();
@@ -541,7 +541,7 @@
             s = b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t, s)
         }(window,
-            document, 'script', 'assets/js/fbevents.js');
+            document, 'script', '../assets/js/fbevents.js');
 
         fbq('init', '868696383276698');
         fbq('track', "PageView");
@@ -563,7 +563,7 @@
             if (d.getElementById(id)) return;
             js = d.createElement(s);
             js.id = id;
-            js.src = "assets/js/sdk.js";
+            js.src = "../assets/js/sdk.js";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
