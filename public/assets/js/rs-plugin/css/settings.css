@@ -19,8 +19,15 @@ website:   	http://www.themepunch.com
 
 .tp-hide-revslider,.tp-caption.tp-hidden-caption	{	visibility:hidden !important; display:none !important;}
 
+.tp-caption-wrapper,
+.tp-caption.sft { width: 100%; text-align: center; }
 
-.tp-caption { z-index:1; white-space:nowrap}
+.tp-caption-wrapper { width: 100%; position: absolute; top: 0; }
+
+.tp-caption { z-index:1; white-space:nowrap; left: 0 !important;}
+
+.tp-caption.sfb,
+.tp-caption.sfr { position: relative !important; left: 0; display: inline-block; margin: 0 10px; }
 
 .tp-caption-demo .tp-caption	{	position:relative !important; display:inline-block; margin-bottom:10px; margin-right:20px !important;}
 
