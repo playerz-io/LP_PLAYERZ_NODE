@@ -921,7 +921,7 @@
   }
   /* Get app Section */
   section#getApp {
-    background: url("/assets/img/pelouse.jpg");
+    background: url("/dist/assets/img/pelouse.jpg");
   }
   section#getApp header {
     color: #ffffff;
