@@ -2,8 +2,9 @@
 
 let gulp = require('gulp');
 let plugins = require('gulp-load-plugins')(); //ici on charge tous les plugins de package.json
+let gulpsync = require('gulp-sync')(gulp);
 var source = './public'; // dossier de travail
-var destination = './dist'; // dossier à livrer
+var destination = './public/dist'; // dossier à livrer
 
 
 // Tâche "js" = uglify + concat
@@ -46,7 +47,7 @@ gulp.task('minify', function () {
 gulp.task('build', ['css']);
 
 //tache "prod" = Build + minify + js + img
-gulp.task('prod', ['build', 'minify', 'js', 'img']);
+gulp.task('prod', gulpsync.sync(['build', 'minify', 'js', 'img']));
 
 //tache "watch" = je surveille *css et js
 gulp.task('watch', function () {

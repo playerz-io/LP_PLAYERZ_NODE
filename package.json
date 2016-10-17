@@ -39,17 +39,18 @@
     "gulp-concat": "latest"
   },
   "devDependencies": {
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-csso": "latest",
+    "gulp-imagemin": "latest",
     "gulp-load-plugins": "latest",
     "gulp-ng-annotate": "latest",
     "gulp-rename": "latest",
-    "gulp": "latest",
-    "gulp-csso": "latest",
-    "gulp-csscomb": "latest",
-    "gulp-cssbeautify": "latest",
-    "gulp-autoprefixer": "latest",
+    "gulp-sync": "^0.1.4",
     "gulp-uglifyjs": "latest",
-    "gulp-imagemin": "latest",
-    "gulp-uncss": "latest",
-    "gulp-concat": "latest"
+    "gulp-uncss": "latest"
   }
 }
