@@ -9,7 +9,7 @@ var destination = './public/dist'; // dossier à livrer
 
 // Tâche "js" = uglify + concat
 gulp.task('js', function() {
-    return gulp.src(source + '/assets/js/*.js')
+    return gulp.src(source + '/assets/js/**/**/*.js')
         .pipe(plugins.uglifyjs()) //minification
         .pipe(plugins.concat('global.min.js')) //concatenation
         .pipe(gulp.dest(destination + '/assets/js/'));
