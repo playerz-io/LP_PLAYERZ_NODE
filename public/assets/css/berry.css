@@ -921,7 +921,7 @@
   }
   /* Get app Section */
   section#getApp {
-    background: url("/assets/img/pelouse.jpg");
+    background: url("/dist/assets/img/pelouse.jpg");
   }
   section#getApp header {
     color: #ffffff;
@@ -1110,7 +1110,6 @@ form .form-control:focus {
   display: inline-block;
   -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
   animation: bouncedelay 1.4s infinite ease-in-out;
-  Prevent first frame from flickering when animation starts
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
